@@ -8,6 +8,14 @@ export default createGlobalStyle`
     box-sizing: border-box;
     user-select: none;
     -webkit-user-drag: none;
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  a {
+    color: inherit;
+    cursor: pointer;
+    touch-action: manipulation;
+    text-decoration: none;
   }
 
   body {
@@ -22,6 +30,8 @@ export default createGlobalStyle`
       Noto Sans KR, Segoe UI, Apple SD Gothic Neo, Roboto, Helvetica Neue, Arial, sans-serif,
       Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
     -webkit-font-smoothing: antialiased;
+    letter-spacing: -0.4px;
+    font-size: 16px;
   }
 
   input,
