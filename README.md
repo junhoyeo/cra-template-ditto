@@ -8,3 +8,9 @@
     (╯°□°)╯︵◓ <strong>Ditto</strong> can breed with any Pokémon
   </blockquote>
 </p>
+
+## 🚀 Usage
+
+```bash
+npx create-react-app your-awesome-app --template unicorn
+```
