@@ -12,5 +12,5 @@
 ## 🚀 Usage
 
 ```bash
-npx create-react-app your-awesome-app --template unicorn
+npx create-react-app your-awesome-app --template cra-template-ditto
 ```
